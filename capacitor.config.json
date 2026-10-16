@@ -1,0 +1,19 @@
+{
+  "appId": "com.habitflow.galaxya55",
+  "appName": "HabitFlow A55",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_config_sample",
+      "iconColor": "#22C55E"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0B1120"
+    }
+  }
+}

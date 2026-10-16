@@ -1,0 +1,22 @@
+{
+  "name": "habitflow-galaxy-a55",
+  "version": "2.0.0",
+  "description": "Offline-First Saturday-to-Friday Habit Tracker for Samsung Galaxy A55 5G (PWA + Capacitor Android)",
+  "main": "src/core-engine.js",
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "cap:init": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "android:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/local-notifications": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0"
+  }
+}
